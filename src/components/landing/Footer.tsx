@@ -1,4 +1,4 @@
-import { Activity, Github, Twitter, Heart } from 'lucide-react';
+import { Activity, Github, Heart } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 type FooterLink = {
@@ -44,7 +44,11 @@ export default function Footer() {
     community: {
       title: '社区',
       links: [
-        { label: 'GitHub', href: 'https://github.com/holtwood-projects/meta-human', external: true },
+        {
+          label: 'GitHub',
+          href: 'https://github.com/holtwood-projects/meta-human',
+          external: true,
+        },
         {
           label: '讨论区',
           href: 'https://github.com/holtwood-projects/meta-human/discussions',
@@ -55,7 +59,6 @@ export default function Footer() {
           href: 'https://github.com/holtwood-projects/meta-human/issues',
           external: true,
         },
-        { label: 'Twitter', href: 'https://x.com/LessUpHQ', external: true },
       ] as FooterLink[],
     },
   };
@@ -94,15 +97,6 @@ export default function Footer() {
                 aria-label="GitHub"
               >
                 <Github className="w-5 h-5" />
-              </a>
-              <a
-                href="https://x.com/LessUpHQ"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 text-gray-400 hover:text-white transition-colors light:text-zinc-500 light:hover:text-zinc-900"
-                aria-label="Twitter"
-              >
-                <Twitter className="w-5 h-5" />
               </a>
             </div>
           </div>
