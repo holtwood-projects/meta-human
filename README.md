@@ -6,19 +6,19 @@
 
 A browser-native 3D digital human interaction engine with speech recognition, speech synthesis, and streaming conversation — zero configuration, ready to use out of the box.
 
-[![CI](https://img.shields.io/github/actions/workflow/status/build-workbench/meta-human/ci.yml?branch=main&label=CI&style=flat-square)](https://github.com/build-workbench/meta-human/actions)
-[![Demo](https://img.shields.io/badge/Demo-Live%20Demo-green?style=flat-square&logo=githubpages)](https://build-workbench.github.io/meta-human/)
+[![CI](https://img.shields.io/github/actions/workflow/status/holtwood-projects/meta-human/ci.yml?branch=main&label=CI&style=flat-square)](https://github.com/holtwood-projects/meta-human/actions)
+[![Demo](https://img.shields.io/badge/Demo-Live%20Demo-green?style=flat-square&logo=githubpages)](https://holtwood-projects.github.io/meta-human/)
 [![Version](https://img.shields.io/badge/version-0.1.0-blue?style=flat-square)](package.json)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
 <p align="center">
-  <a href="https://build-workbench.github.io/meta-human/#/app">
+  <a href="https://holtwood-projects.github.io/meta-human/#/app">
     <img src="docs/screenshots/viewer-chat.png" width="760" alt="MetaHuman Engine digital human chat interface" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://build-workbench.github.io/meta-human/#/app">Try the live Demo</a>
+  <a href="https://holtwood-projects.github.io/meta-human/#/app">Try the live Demo</a>
 </p>
 
 ---
@@ -39,7 +39,7 @@ MetaHuman Engine is a lightweight 3D digital human interaction engine that runs 
 
 ```bash
 # 1. 克隆代码
-git clone https://github.com/build-workbench/meta-human.git
+git clone https://github.com/holtwood-projects/meta-human.git
 cd meta-human
 
 # 2. 安装依赖并启动
@@ -115,19 +115,19 @@ This project is open sourced under the [MIT](LICENSE) license.
 
 浏览器原生 3D 数字人交互引擎，支持语音识别、语音合成与流式对话，零配置开箱即用。
 
-[![CI](https://img.shields.io/github/actions/workflow/status/build-workbench/meta-human/ci.yml?branch=main&label=CI&style=flat-square)](https://github.com/build-workbench/meta-human/actions)
-[![Demo](https://img.shields.io/badge/Demo-在线体验-green?style=flat-square&logo=githubpages)](https://build-workbench.github.io/meta-human/)
+[![CI](https://img.shields.io/github/actions/workflow/status/holtwood-projects/meta-human/ci.yml?branch=main&label=CI&style=flat-square)](https://github.com/holtwood-projects/meta-human/actions)
+[![Demo](https://img.shields.io/badge/Demo-在线体验-green?style=flat-square&logo=githubpages)](https://holtwood-projects.github.io/meta-human/)
 [![Version](https://img.shields.io/badge/version-0.1.0-blue?style=flat-square)](package.json)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
 <p align="center">
-  <a href="https://build-workbench.github.io/meta-human/#/app">
+  <a href="https://holtwood-projects.github.io/meta-human/#/app">
     <img src="docs/screenshots/viewer-chat.png" width="760" alt="MetaHuman Engine 数字人对话界面" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://build-workbench.github.io/meta-human/#/app">在线体验 Demo</a>
+  <a href="https://holtwood-projects.github.io/meta-human/#/app">在线体验 Demo</a>
 </p>
 
 ---
@@ -148,7 +148,7 @@ MetaHuman Engine 是运行在浏览器端的轻量级 3D 数字人交互引擎�
 
 ```bash
 # 1. 克隆代码
-git clone https://github.com/build-workbench/meta-human.git
+git clone https://github.com/holtwood-projects/meta-human.git
 cd meta-human
 
 # 2. 安装依赖并启动
