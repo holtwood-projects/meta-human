@@ -68,15 +68,15 @@
     "ai-avatar",
     "metaverse"
   ],
-  "author": "LessUp",
+  "author": "holtwood",
   "license": "MIT",
-  "homepage": "https://build-workbench.github.io/meta-human/",
+  "homepage": "https://holtwood-projects.github.io/meta-human/",
   "bugs": {
-    "url": "https://github.com/build-workbench/meta-human/issues"
+    "url": "https://github.com/holtwood-projects/meta-human/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/build-workbench/meta-human.git"
+    "url": "https://github.com/holtwood-projects/meta-human.git"
   },
   "engines": {
     "node": ">=22.0.0",
