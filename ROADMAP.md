@@ -157,7 +157,7 @@ useChatStream → DialogueOrchestrator (turnId 所有权隔离)
 
 | Task               | 文件                                              | 验收                                                                                               |
 | ------------------ | ------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| 修正仓库元数据     | `package.json:73-80`                              | `repository`/`homepage`/`bugs` 改为 `build-workbench/meta-human`                                   |
+| 修正仓库元数据     | `package.json:73-80`                              | `repository`/`homepage`/`bugs` 改为 `holtwood-projects/meta-human`                                   |
 | description 双语化 | `package.json:4`                                  | 改为 `中文简介 \| English summary`                                                                 |
 | 修正过时注释       | `vitest.config.ts:26`                             | 更新为实测覆盖率数字                                                                               |
 | 修复 flaky 测试    | `digitalHuman.test.tsx:600-620`                   | 去掉 `performance.now()` 硬阈值，改为结构性断言（渲染成功 + 状态正确）或放宽到不依赖机器负载的量级 |
@@ -240,7 +240,7 @@ useChatStream → DialogueOrchestrator (turnId 所有权隔离)
 
 ### Phase 0 — 清债
 
-- [ ] **[S]** 修正 `package.json` 的 `repository`/`homepage`/`bugs` 为 `build-workbench/meta-human`
+- [ ] **[S]** 修正 `package.json` 的 `repository`/`homepage`/`bugs` 为 `holtwood-projects/meta-human`
 - [ ] **[S]** `package.json` description 改为双语 `中文简介 | English summary`
 - [ ] **[S]** 更新 `vitest.config.ts:26` 过时覆盖率注释
 - [ ] **[S]** 修复 `digitalHuman.test.tsx:600-620` 两处 `performance.now()` 硬阈值 flaky

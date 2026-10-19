@@ -26,17 +26,17 @@ export default function Footer() {
       links: [
         {
           label: 'README',
-          href: 'https://github.com/build-workbench/meta-human#readme',
+          href: 'https://github.com/holtwood-projects/meta-human#readme',
           external: true,
         },
         {
           label: '更新日志',
-          href: 'https://github.com/build-workbench/meta-human/blob/main/CHANGELOG.md',
+          href: 'https://github.com/holtwood-projects/meta-human/blob/main/CHANGELOG.md',
           external: true,
         },
         {
           label: '贡献指南',
-          href: 'https://github.com/build-workbench/meta-human/blob/main/AGENTS.md',
+          href: 'https://github.com/holtwood-projects/meta-human/blob/main/AGENTS.md',
           external: true,
         },
       ] as FooterLink[],
@@ -44,15 +44,15 @@ export default function Footer() {
     community: {
       title: '社区',
       links: [
-        { label: 'GitHub', href: 'https://github.com/build-workbench/meta-human', external: true },
+        { label: 'GitHub', href: 'https://github.com/holtwood-projects/meta-human', external: true },
         {
           label: '讨论区',
-          href: 'https://github.com/build-workbench/meta-human/discussions',
+          href: 'https://github.com/holtwood-projects/meta-human/discussions',
           external: true,
         },
         {
           label: '问题反馈',
-          href: 'https://github.com/build-workbench/meta-human/issues',
+          href: 'https://github.com/holtwood-projects/meta-human/issues',
           external: true,
         },
         { label: 'Twitter', href: 'https://x.com/LessUpHQ', external: true },
@@ -87,7 +87,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-3">
               <a
-                href="https://github.com/build-workbench/meta-human"
+                href="https://github.com/holtwood-projects/meta-human"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 text-gray-400 hover:text-white transition-colors light:text-zinc-500 light:hover:text-zinc-900"
@@ -158,7 +158,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/5 light:border-zinc-900/10 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-center text-sm text-gray-600 sm:text-left light:text-zinc-500">
-            {`© ${currentYear} LessUp. 保留所有权利。`}
+            {`© ${currentYear} holtwood. 保留所有权利。`}
           </p>
           <p className="flex items-center justify-center gap-1 text-center text-sm text-gray-600 sm:justify-end sm:text-right light:text-zinc-500">
             用 <Heart className="w-4 h-4 text-red-500 fill-red-500" />{' '}
