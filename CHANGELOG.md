@@ -29,6 +29,7 @@
 
 ### 🔧 变更
 
+- **CI 覆盖率门禁生效** — `vitest.config.ts` 已配置 lines 60 / functions 68 / branches 73 的阈值，但 CI 一直用 `test:run`（不带 `--coverage`），阈值从未被检查；现改为 `test:coverage`
 - **emotion/action 归一化对齐** — HTTP 路径 `parseChatResponse` 原本直接 `as EmotionType` 强转且不校验 action，非法值会一路带进 store 再在 engine 里 warn；SSE 路径只归一化 emotion。现两条传输路径统一走 `normalizeAvatarEmotion` / `normalizeAvatarAction`（`avatarContract` 新增后者），后端返回白名单外的值时在入口降级为 neutral/idle
 
 ### 📚 文档

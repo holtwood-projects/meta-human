@@ -46,7 +46,8 @@ jobs:
         run: npm run lint
 
       - name: Test
-        run: npm run test:run
+        # 必须带 --coverage，否则 vitest.config.ts 里的覆盖率阈值永远不会生效。
+        run: npm run test:coverage
         env:
           CI: true
 
